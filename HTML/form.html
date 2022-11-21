@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+   <fieldset>
+    <legend>Feedback Form</legend>
+    <form action="" method="GET">
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="useremail" id="email" placeholder="enter your email" required>
+        </p>
+        
+
+        <p>
+            <label for="pwd">Password:</label>
+            <input type="password" name="password" id="pwd" placeholder="enter your password">
+        </p>
+
+        <p>Gender: </p>
+        <input type="radio" name="gender" id="m" checked> <label for="m">Male</label>
+        <input type="radio" name="gender" id="f"> <label for="f">Female</label>
+        <input type="radio" name="gender" id="o"> <label for="o">Other</label>
+        
+        <p>Hobbies: </p>
+        <input type="checkbox" name="hobbies" id="baddy"> <label for="baddy">Badminton</label>
+        <input type="checkbox" name="hobbies" id="swim"> <label for="swim">Swimming</label>
+        <input type="checkbox" name="hobbies" id="music"> <label for="music">Music</label>
+        <br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" name="birthdate" id="dob">
+        <br><br>
+
+        <label for="lang">Programming language: </label>
+        <select name="languages" id="lang">
+            <option value="js">JavaScript</option>
+            <option value="py">Python</option>
+            <option value="cpp">C++</option>
+        </select>
+        <br><br>
+
+        <label for="upl_img">Upload image:</label>
+        <input type="file" name="image" id="upl_img">
+        <br><br>
+
+        <label for="rtn">Ratings (out of 10):</label>
+        <input type="range" name="ratings" id="rtn" min="0" max="10">
+
+        <p>Any comments?</p>
+        <textarea cols="30" rows="10" placeholder="please provide your valuable feedback..."></textarea>
+        <br>
+
+        <input type="reset">
+        <button>Submit</button>
+    </form>
+   </fieldset>
+
+   <div>
+        <a href="./index.html">Home page🏠</a>
+   </div>
+
+</body>
+</html>

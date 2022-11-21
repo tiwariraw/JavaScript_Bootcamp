@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <figure>
+        <img src="./images/Ashish.jpg" alt="ashish-pic" width="300" height="350">
+        <figcaption>Ashish's profile picture</figcaption>
+    </figure>
+
+    <hr>
+
+    <!-- usemap attribute of img tag (6th Nov, FSJS) -->
+    <!-- Use image map generator websites -->
+    <img 
+    usemap="#image-map"
+    src="https://images.pexels.com/photos/1739856/pexels-photo-1739856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ashish-pic">
+
+    <map name="image-map">
+        <area target="" onclick="fun1()" alt="" title="" href="" coords="542,749,163,113" shape="rect">
+        <area target="" onclick="fun2()" alt="" title="" href="" coords="1124,747,593,19" shape="rect">
+    </map>
+
+    <script>
+        function fun1(){
+            alert("You clicked on monk")
+        }
+        function fun2(){
+            alert("You clicked on walls")
+        }
+    </script>
+
+   
+    <div>
+        <a href="./index.html">Home page🏠</a>
+    </div>
+</body>
+</html>
