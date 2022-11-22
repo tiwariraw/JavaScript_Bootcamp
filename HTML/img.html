@@ -7,6 +7,7 @@
     <title>Image</title>
 </head>
 <body>
+    
     <figure>
         <img src="./images/Ashish.jpg" alt="ashish-pic" width="300" height="350">
         <figcaption>Ashish's profile picture</figcaption>
@@ -34,6 +35,12 @@
         }
     </script>
 
+    <!-- How users gets redirected to Ads when clicking on images -->
+    <img src="./images/Ashish.jpg" usemap="#ads" alt="ashish-pic" width="700" height="500">
+    <map name="ads">
+        <area shape="rect" coords="30,30,150,200" href="https://google.com">
+        <area shape="rect" coords="300,350,400,500" href="https://facebook.com">
+    </map>
    
     <div>
         <a href="./index.html">Home page🏠</a>
